@@ -1,4 +1,4 @@
 ## Do Often
 Control habits simple and lightweight app.
 
-![alt text](https://github.com/sibelly/nlw-setup/blob/main/.github/assets/cover.svg)
+![alt text](https://raw.githubusercontent.com/sibelly/nlw-setup/main/.github/assets/cover.svg)

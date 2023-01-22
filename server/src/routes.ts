@@ -132,10 +132,10 @@ export async function appRoutes(app: FastifyInstance) {
   app.get('/summary', async () => {
     const summary = await prisma.$queryRaw`
         SELECT 
-            D.id, 
+            D.id,
             D.date,
             (
-                SELECT 
+                SELECT
                     cast(count(*) as float )
                 FROM day_habits DH
                 WHERE DH.day_id = D.id

@@ -4,7 +4,7 @@ export function NewHabitForm() {
   return (
     <form className="w-full flex flex-col mt-6">
       <label htmlFor="title" className="font-semibold leading-tight">
-        What are your commitment?
+        What is your commitment?
       </label>
 
       <input
